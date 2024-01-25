@@ -75,12 +75,14 @@ body {
     font-weight: bold;
 }
 
+.label {
+    position: absolute;
+}
+
 .ribbon {
     display: inline-block;
     width: 180px;
     height: 40px;
-    position: absolute;
-    left: 0;
     line-height: 40px;
     text-transform: uppercase;
     color: var(--product-yellow);

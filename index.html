@@ -6,25 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
     <title>Product card</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="product-card">
-        <span class="ribbon new">Novinka</span>
-        <img src="new-end.png" alt="" class="img-end new" />
-        <span class="ribbon shipping">Doprava zdarma</span>
-        <img src="end.png" alt="" class="img-end shipping" />
+
+        <div class="label new">
+            <span class="ribbon">Novinka</span>
+            <img src="new-end.png" alt="" class="img-end" />
+        </div>
+
+        <div class="label shipping">
+            <span class="ribbon">Doprava zdarma</span>
+            <img src="end.png" alt="" class="img-end" />
+        </div>
+    
         <img src="gump-jsme-dvojka.jpg" alt="" class="product-img" />
-        <h1 class="product-title">Gump: Jsme dvojka</h1>
-        <p class="product-author">Rožek Filip</p>
-        <p class="product-store">Skladem</p>
+
+        <div>
+            <h1 class="product-title">Gump: Jsme dvojka</h1>
+            <p class="product-author">Rožek Filip</p>
+            <p class="product-store">Skladem</p>
+        </div>
+
         <div class="product-price-badge">
             <p class="product-price">Super cena</p>
             <p class="product-price-number">254 Kč</p>
         </div>
+
         <div class="add-to-cart">Do košíku</div>
     </div>
 </body>
